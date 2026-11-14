@@ -1,0 +1,51 @@
+@font-face {
+    font-family: TitanOne;
+    src: url(Titan_One/TitanOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Londrina;
+    src: url(Londrina_Solid/LondrinaSolid-Regular.ttf);
+}
+
+
+
+
+body {
+    position: relative;
+    isolation: isolate;
+    margin: 0;
+    background: rgb(246, 230, 161);
+}
+
+.page1 {
+    margin: 30px;
+    border-radius: 20px;
+    height: 630px;
+    box-shadow:
+        inset 0px 10px 10px rgba(238, 204, 189, 0),
+        inset -10px -10px 10px rgba(101, 4, 4, 0),
+        15px 15px 30px rgba(2, 4, 52, 0.602);
+}
+
+.color1 {
+    background-color: #104696;
+    border: 2px solid #1050be;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    padding: 2px, 0px, 5px, 0px;
+    line-height: 0%;
+    text-align: center;
+    color: rgb(212, 0, 255);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(196, 233, 62);
+}
